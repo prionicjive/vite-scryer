@@ -39,3 +39,26 @@
 .read-the-docs {
   color: #888;
 }
+
+.App {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+               "header"
+               "content"
+               "footer";
+
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.content {
+  grid-area: content;
+}
+
+.header {
+  grid-area: header;
+}

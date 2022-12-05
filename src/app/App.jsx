@@ -6,10 +6,10 @@ import {BrowserRouter as Router, Navigate, Route, Routes} from 'react-router-dom
 function App() {
     return (
         <div className="App">
-            <header>
+            <header className="header">
                 HEADER TEST
             </header>
-            <main>
+            <main className="content">
                 <Router>
                     <Routes>
                         <Route path="cards/:id" element={<CardDetailsPage/>}/>
@@ -18,7 +18,7 @@ function App() {
                     </Routes>
                 </Router>
             </main>
-            <footer>
+            <footer className="footer">
                 FOOTER TEST
             </footer>
         </div>
