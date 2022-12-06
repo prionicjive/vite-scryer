@@ -1,6 +1,6 @@
 import {BrowserRouter as Router, Navigate, Route, Routes} from "react-router-dom";
-import CardDetailsPage from "../../../pages/CardDetails/CardDetailsPage.jsx";
-import LimboPage from "../../../pages/Limbo/LimboPage.jsx";
+import CardDetailsPage from "../../pages/CardDetails/CardDetailsPage.jsx";
+import LimboPage from "../../pages/Limbo/LimboPage.jsx";
 
 import "./Content.css";
 
