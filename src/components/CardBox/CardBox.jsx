@@ -18,6 +18,11 @@ function CardBox({
                     <Card artOnly={artOnly} random={random}/>
                     <Card artOnly={artOnly} random={random}/>
                     <Card artOnly={artOnly} random={random}/>
+                    <Card artOnly={artOnly} random={random}/>
+                    <Card artOnly={artOnly} random={random}/>
+                    <Card artOnly={artOnly} random={random}/>
+                    <Card artOnly={artOnly} random={random}/>
+                    <Card artOnly={artOnly} random={random}/>
                 </div>
             </div>
         </div>

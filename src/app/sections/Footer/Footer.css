@@ -1,0 +1,11 @@
+.Footer {
+    grid-area: footer;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-title {
+    font-size: 64px;
+}
